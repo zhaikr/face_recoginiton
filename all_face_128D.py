@@ -6,7 +6,6 @@ import os
 import glob
 from skimage import io
 import re
-import json
 
 current_path = os.getcwd() #获取当前路径
 predictor_path = current_path + '/model/shape_predictor_68_face_landmarks.dat'  # 1.人脸关键点检测器
