@@ -11,7 +11,15 @@
 ​	如果你是Ubuntu用户就可以跳过你也可以选择升级CMake
 
 ```bash
-
+$ sudo apt-get install software-properties-common
+$ sudo add-apt-repository ppa:george-edison55/cmake-3.x
+$ sudo apt-get update
+#如果之前没有装CMake，执行
+$ sudo apt-get install cmake
+#如果之前已经装过CMake
+$ sudo apt-get upgrade
+#再次查看cmake的版本:
+$ cmake --version
 ```
 
 ​	2.Dlib下载
